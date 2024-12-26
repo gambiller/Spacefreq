@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+a:all {
+	text-decoration: none;
+}
+a:link {
+	Color: white;
+	text-decoration: none;
+}
+a:visisted {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: hsla(0,0%,85%,1.00);
+	text-decoration: none;
+}
+a:active {
+	color: hsla(260,34%,42%,1.00);
+	text-decoration: none;
+}
+html, body {
+	/*overflow: hidden;*/
+    width: auto;
+    margin: 0px;
+    height: auto;
+}
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+#Navigation {
+    z-index: 55;
+    margin-top: 20px;
+    margin-right: 0;
+    position: relative;
+    display: flex;
+	flex-direction:row-reverse;
+	justify-items: right;
+	white-space: nowrap;
+}
+
+#Logo {
+    position: relative;
+	align-content: center;
+    z-index: 51;
+    display: grid;
+	grid-template-columns: 50% 50%;
+	align-self: center
+}
+#Spotify {
+    margin-right: 0%;
+	margin-top: 2%;
+    position: relative;
+    z-index: 51;
+	justify-items: left;
+	justify-content: center;
+	width: 45%;
+	float: right;
+}
+#social {
+    display: flex;
+	position: relative;
+	align-content: center;
+	justify-content: center;
+    padding-bottom: 1%;
+    width: 1750px;
+    bottom: 0%;
+    z-index: 53;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.Logo {
+	transition: 0.5s;
+	width: 100%;
+	margin-left: 5%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+}
+.Logo:hover{
+	transform: scale(1.1);
+}
+.Spotify {
+	min-width: 70%;
+	max-height: 80%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 10%;
+	margin-top: 5%; 
+}
+.text {
+    font-family: "Anatol MN";
+    white-space: nowrap;
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+	flex-direction: row;
+	justify-content: right;
+    float: right;
+    color: hsla(0,0%,100%,1.00);
+    font-size: xx-large;
+    text-align: left; 
+	margin-right: 100px;
+}
+.link {
+	transition: 0.5s;
+}
+.link:hover {
+	transform: scale(1.2);
+}
+.social {
+	width: 40px;
+	margin: 5px;
+	margin-top: 100px;
+    z-index: 54;
+    transition: 0.5s;
+}
+.social:hover {
+	transform: scale(1.3);
+}
